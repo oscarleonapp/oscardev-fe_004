@@ -1233,8 +1233,13 @@ section {
   color: #ffffff;
 }
 
+.justificar-texto{
+text-align: justify;
+}
+
 /* 
 fondo: #151515 icono
 color texto: #f1f1f1 circulo
 color titulo: #ffffff
 */
+
