@@ -10,8 +10,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
-  background-color:#272829;
+  color: #f1f1f1;
+  background-color:#151515;
 }
 
 a {
@@ -380,7 +380,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #ffffff;
 }
 
 .section-title h2::before {
@@ -503,7 +503,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #45505b;
+  color: #ffffff;
 }
 
 .skills .progress .skill .val {
@@ -512,14 +512,14 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #f2f3f5;
+  background: #454546;
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #0563bb;
+  background-color: #f1f1f1;
 }
 
 /*--------------------------------------------------------------
@@ -1228,3 +1228,13 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.title_moises{
+  color: #ffffff;
+}
+
+/* 
+fondo: #151515 icono
+color texto: #f1f1f1 circulo
+color titulo: #ffffff
+*/
