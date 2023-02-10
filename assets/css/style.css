@@ -1274,7 +1274,7 @@ text-align: justify;
 
 ::-webkit-scrollbar-thumb{
   background-color: #151515;
-  border-radius: .5rem;
+  /* border-radius: .5rem */
 }
 
 ::-webkit-scrollbar-thumb:hover{
