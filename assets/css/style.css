@@ -336,10 +336,25 @@ i:hover{
   color: var(--hover);
 }
 
-.texto{
+/* .texto{
   background: url('https://images.unsplash.com/photo-1567459169668-95d355371bda?fit=crop&w=1349&q=80');
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+} */
+
+.texto{
+  background-image: linear-gradient(to right, #00F260, #F79d00, #0575E6, #64f38c);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 300%;
+  background-position: -100%;
+  animation: animatedText 5s infinite alternate-reverse;
+}
+
+@keyframes animatedText{
+  to{
+    background-position: 100%;
+  }
 }
 
 
