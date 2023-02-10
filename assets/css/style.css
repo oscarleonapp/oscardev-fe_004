@@ -332,10 +332,16 @@ i:hover{
   color: #fff;
 }
 
-#hero h1:hover,
 #hero p:hover {
   color: var(--hover);
 }
+
+.texto{
+  background: url('https://images.unsplash.com/photo-1567459169668-95d355371bda?fit=crop&w=1349&q=80');
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 #hero p {
   color: #666666;
