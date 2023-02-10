@@ -763,14 +763,15 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #666666;
   opacity: 1;
-  border: 1px solid #0563bb;
+  border: 1px solid #f1f1f1;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0563bb;
+  background-color: #f1f1f1;
 }
+
 
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -984,7 +985,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #90c8fc;
+  color: #fff;
   font-size: 26px;
 }
 
@@ -1014,13 +1015,13 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #666666;
   opacity: 1;
-  border: 1px solid #0563bb;
+  border: 1px solid #f1f1f1;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0563bb;
+  background-color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -1034,12 +1035,12 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  /* background: #fff; */
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #151515;
   float: left;
   width: 44px;
   height: 44px;
@@ -1056,14 +1057,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #45505b;
+  color: #fff;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #728394;
+  color: #f1f1f1;
 }
 
 .contact .info .email,
@@ -1074,13 +1075,26 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #0563bb;
+  background: #272727;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+}
+
+.contact .php-email-form input {
+  background: #666666;
+  color: #fff;
+}
+
+.contact .php-email-form textarea {
+  background: #666666;
+  color: #fff;
+}
+
+.contact .php-email-form ::placeholder {
+  color: #fff;
 }
 
 .contact .php-email-form .form-group {
@@ -1145,7 +1159,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #0563bb;
+  background: #151515;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1154,7 +1168,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #0678e3;
+  background: #fff;
+  color: #151515;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1181,8 +1196,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
-  color: #45505b;
+  background: #151515;
+  color: #666666;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1211,7 +1226,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #272727;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1224,9 +1239,10 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
-  color: #fff;
+  background: #fff;
+  color: #272727;
   text-decoration: none;
+  font-size: 24px;
 }
 
 #footer .copyright {
