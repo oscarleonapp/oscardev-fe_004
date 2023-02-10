@@ -1,4 +1,6 @@
-
+:root {
+  --gray: #ededed;
+}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -286,6 +288,16 @@ i:hover{
   background: url("../img/hero-bg.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.grayscale {
+  filter: grayscale(1);
+  background-color: var(--gray);
+}
+
+.grayscale:hover{
+  transition: all 1.5s ease-in-out;
+  filter: none;
 }
 
 @media (min-width: 992px) {
@@ -1287,4 +1299,3 @@ fondo: #151515 icono
 color texto: #f1f1f1 circulo
 color titulo: #ffffff
 */
-
