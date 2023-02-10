@@ -602,8 +602,13 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+/* .portfolio-container{
+  background-color: #151515;
+} */
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  background-color: #070B0A;
 }
 
 .portfolio #portfolio-flters {
@@ -646,9 +651,16 @@ section {
   background: #272727;
 }
 
+#titulo-portafolio{
+  background-color: #666666;
+  border-radius: 5px;
+  padding: 4px;
+  color: #fff;
+}
+
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  /* background: rgba(255, 255, 255, 0.2); */
   position: absolute;
   left: 30px;
   right: 30px;
@@ -710,7 +722,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #45505b;
+  color: #148af9;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
